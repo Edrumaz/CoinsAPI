@@ -42,7 +42,7 @@ router.get("/:id", function (req, res, next) {
 });
 
 /* PUT coin listing */
-router.put("/", function(req,res,next){
+router.post("/", function(req,res,next){
     let data = {
       name: req.body.name,
       country: req.body.country,
